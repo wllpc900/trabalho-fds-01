@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: hsl(211, 100%, 99%);
+  color: hsl(211, 100%, 10%);
+  margin: 20px;
+  line-height: 1.6;
+}
+
+h1 {
+  color: hsl(211, 100%, 15%);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: hsl(211, 100%, 15%);
+  border-bottom: 2px solid #ddd;
+  margin-top: 40px;
+}
+
+p {
+  font-size: 1.1em;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 25px;
+  margin-bottom: 30px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 50dvw;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 30px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+table th {
+  background-color: #f2f2f2;
+  color: #555;
+  font-weight: bold;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table td img {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: auto;
+  border-radius: 8px;
+}
+
+a {
+  color: hsl(211, 100%, 50%);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: hsl(211, 100%, 30%);
+  text-decoration: underline;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: hsl(211, 100%, 90%);
+  color: hsl(211, 100%, 10%);
+  border: 2px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: border 0.3s ease;
+}
+
+button:hover {
+  border: 2px solid hsl(211, 100%, 10%);
+}
